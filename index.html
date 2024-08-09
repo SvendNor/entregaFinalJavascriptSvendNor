@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Modificaciones - Honda Civic Si 2009</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simulador de Modificaciones para Honda Civic Si 2009</h1>
+    
+    <div id="simulador">
+        <h2>Selecciona las modificaciones que deseas aplicar:</h2>
+        <form id="modForm">
+            <label>
+                <input type="checkbox" name="modificaciones" value="turbo">
+                Turbo - $300,000 ARS
+            </label><br>
+            <label>
+                <input type="checkbox" name="modificaciones" value="escape">
+                Escape Deportivo - $120,000 ARS
+            </label><br>
+            <label>
+                <input type="checkbox" name="modificaciones" value="reprogramacion">
+                Reprogramación ECU - $80,000 ARS
+            </label><br>
+            <label>
+                <input type="checkbox" name="modificaciones" value="intake">
+                Intake de Aire - $60,000 ARS
+            </label><br>
+            <label>
+                <input type="checkbox" name="modificaciones" value="suspension">
+                Suspensión Deportiva - $150,000 ARS
+            </label><br>
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+    </div>
+
+    <div id="resultado">
+        <h2>Resultados:</h2>
+        <p>Caballos de Fuerza: <span id="hp">197</span> HP</p>
+        <p>Torque: <span id="torque">174</span> Nm</p>
+        <p>Presupuesto Total: <span id="precio">0</span> ARS</p>
+    </div>
+
+    <script src="emulador.js"></script>
+</body>
+</html>
