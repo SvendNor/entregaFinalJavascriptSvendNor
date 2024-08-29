@@ -3,45 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Modificaciones - Honda Civic Si 2009</title>
+    <title>Simulador de Modificaciones - Selección de Vehículo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Simulador de Modificaciones para Honda Civic Si 2009</h1>
+    <h1>Simulador de Modificaciones</h1>
     
+    <div id="autoModal" class="modal">
+        <div class="modal-content">
+            <h2>Selecciona tu Vehículo</h2>
+            <select id="autoSelect">
+                <option value="Honda Civic Si 2009">Honda Civic Si 2009</option>
+                <option value="Audi S3 2012">Audi S3 2012</option>
+                <option value="Volkswagen Vento 2012">Volkswagen Vento 2012</option>
+                <option value="Renault Megane RS 2016">Renault Megane RS 2016</option>
+                <option value="Peugeot 207 GTi 2012">Peugeot 207 GTi 2012</option>
+                <option value="Ford Focus 2016">Ford Focus 2016</option>
+                <option value="Chevrolet Cruze RS 2020">Chevrolet Cruze RS 2020</option>
+                <option value="BMW 240i 2019">BMW 240i 2019</option>
+                <option value="Mercedes Benz CLA250 2017">Mercedes Benz CLA250 2017</option>
+            </select>
+            <button id="selectAutoBtn">Seleccionar</button>
+        </div>
+    </div>
+
     <div id="simulador">
         <h2>Selecciona las modificaciones que deseas aplicar:</h2>
         <form id="modForm">
-            <label>
-                <input type="checkbox" name="modificaciones" value="turbo">
-                Turbo - $300,000 ARS
-            </label><br>
-            <label>
-                <input type="checkbox" name="modificaciones" value="escape">
-                Escape Deportivo - $120,000 ARS
-            </label><br>
-            <label>
-                <input type="checkbox" name="modificaciones" value="reprogramacion">
-                Reprogramación ECU - $80,000 ARS
-            </label><br>
-            <label>
-                <input type="checkbox" name="modificaciones" value="intake">
-                Intake de Aire - $60,000 ARS
-            </label><br>
-            <label>
-                <input type="checkbox" name="modificaciones" value="suspension">
-                Suspensión Deportiva - $150,000 ARS
-            </label><br>
-            <button type="button" onclick="calcular()">Calcular</button>
+            <!-- Las modificaciones se generan dinamicamente aca -->
         </form>
+        <button type="button" onclick="calcular()">Calcular</button>
     </div>
 
     <div id="resultado">
         <h2>Resultados:</h2>
-        <p>Caballos de Fuerza: <span id="hp">197</span> HP</p>
-        <p>Torque: <span id="torque">174</span> Nm</p>
+        <p>Caballos de Fuerza: <span id="hp">197</span></p>
+        <p>Torque: <span id="torque">174</span></p>
         <p>Presupuesto Total: <span id="precio">0</span> ARS</p>
+        <div id="resultMessage"></div>
     </div>
+
+    <button id="cambiarModeloBtn">Cambiar Modelo</button>
 
     <script src="emulador.js"></script>
 </body>

@@ -1,33 +1,100 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
 }
 
 h1, h2 {
-    color: #d9534f;
+  color: #d9534f;
 }
 
 #simulador, #resultado {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    background-color: #5cb85c;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #449d44;
 }
 
-button:hover {
-    background-color: #4cae4c;
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px;
+}
+
+#autoSelect {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+#selectAutoBtn, #closeResultModalBtn {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-top: 20px;
+}
+#selectAutoBtn:hover, #closeResultModalBtn:hover {
+  background-color: #c9302c;
+}
+
+#resultMessage {
+  white-space: pre-line;
+  font-weight: bold;
+}
+
+#cambiarModeloBtn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#cambiarModeloBtn:hover {
+  background-color: #449d44;
+}
+#cambiarModeloBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  pointer-events: none;
+}/*# sourceMappingURL=styles.css.map */
