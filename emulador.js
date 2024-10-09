@@ -7,7 +7,12 @@ async function fetchData() {
 
         return { carData, modificationsData };
     } catch (error) {
-        console.error('Error fetching data:', error);
+        Swal.fire({
+            title: 'Error',
+            text: 'No se pudieron cargar los datos correctamente.',
+            icon: 'error',
+            confirmButtonText: 'Aceptar'
+        });
     }
 }
 
@@ -110,6 +115,14 @@ function displayCarDetails(carData, modificationsData) {
             noModsMessage.textContent = "No hay modificaciones disponibles para este auto.";
             modificationOptions.appendChild(noModsMessage);
         }
+
+        // Confirmación de selección de auto
+        Swal.fire({
+            title: 'Auto Seleccionado',
+            text: `Has seleccionado el ${selectedCar}.`,
+            icon: 'success',
+            confirmButtonText: 'Continuar'
+        });
     });
 
     function updateDisplay(displayElement, value, lights, unit) {
@@ -123,6 +136,14 @@ function displayCarDetails(carData, modificationsData) {
             lights[1]?.classList.add('active');
         } else if (value > 325) {
             lights[2]?.classList.add('active');
+
+            // Advertencia sobre HP alto
+            Swal.fire({
+                title: 'Advertencia',
+                text: `El valor de HP (${value}) excede el límite seguro de 300 HP.`,
+                icon: 'warning',
+                confirmButtonText: 'Entendido'
+            });
         }
     }
 
@@ -173,11 +194,29 @@ function displayCarDetails(carData, modificationsData) {
         updateDisplay(hpDisplay, totalHp, hpLights, 'HP');
         updateDisplay(torqueDisplay, totalTorque, torqueLights, 'Nm');
         priceOutput.textContent = `Total Price: $${totalPrice}`;
+
+        // Mostrar resultados con SweetAlert
+        Swal.fire({
+            title: 'Resultados del Simulador',
+            html: `<strong>HP Final:</strong> ${totalHp} <br>
+                   <strong>Torque Final:</strong> ${totalTorque} Nm <br>
+                   <strong>Precio Total:</strong> $${totalPrice}`,
+            icon: 'info',
+            confirmButtonText: 'Aceptar'
+        });
     }
 
     applyButton.addEventListener('click', () => {
         selectedModifications = { ...pendingModifications };  // Transferir modificaciones pendientes a las seleccionadas
         updateSelectedModsList(selectedModsList);  // Mostrar las modificaciones en la lista
+
+        // Confirmación de modificaciones aplicadas
+        Swal.fire({
+            title: 'Modificaciones Aplicadas',
+            text: 'Las modificaciones han sido aplicadas correctamente.',
+            icon: 'success',
+            confirmButtonText: 'OK'
+        });
     });
 }
 
