@@ -1,0 +1,391 @@
+{
+    "Honda Civic Si": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_honda" },
+                "Garrett GT2860R": { "hp": 80, "torque": 90, "precio": 220000, "logo": "img/logos/logo_garrett.jpg" },
+                "Precision 6266": { "hp": 100, "torque": 110, "precio": 260000, "logo": "img/logos/logo_precision.jpg" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_honda" },
+                "HKS Hi-Power": { "hp": 10, "torque": 12, "precio": 90000, "logo": "img/logos/logo_hks.jpg" },
+                "Greddy Evolution GT": { "hp": 15, "torque": 15, "precio": 95000, "logo": "img/logos/logo_greddy.png" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_honda" },
+                "Brembo GT": { "hp": 0, "torque": 0, "precio": 130000, "logo": "img/logos/logo_brembo.jpg" },
+                "Wilwood Dynapro": { "hp": 0, "torque": 0, "precio": 120000, "logo": "img/logos/logo_willwood.png" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_honda" },
+                "Tein Street Advance Z": { "hp": 0, "torque": 0, "precio": 110000, "logo": "img/logos/logo_tein.jpg" },
+                "KW Variant 3": { "hp": 0, "torque": 0, "precio": 140000, "logo": "img/logos/logo_kw.png" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_honda" },
+                "Enkei RPF1": { "hp": 0, "torque": 0, "precio": 65000, "logo": "img/logos/logo_enkei.jpg" },
+                "Volk TE37": { "hp": 0, "torque": 0, "precio": 80000, "logo": "img/logos/logo_volk.png" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_honda" },
+                "Michelin Pilot Sport 4S": { "hp": 0, "torque": 0, "precio": 72000, "logo": "img/logos/logo_michelin.png" },
+                "Pirelli P Zero": { "hp": 0, "torque": 0, "precio": 78000, "logo": "img/logos/logo_pirelli.svg" }
+            }
+        }
+    },
+    "Audi S3": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_audi.png" },
+                "Garrett GTX3071R": { "hp": 120, "torque": 150, "precio": 290000, "logo": "img/logos/logo_garrett.jpg" },
+                "BorgWarner EFR": { "hp": 140, "torque": 170, "precio": 320000, "logo": "img/logos/logo_borgwarner.jpg" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_audi.png" },
+                "Milltek Sport": { "hp": 12, "torque": 14, "precio": 95000, "logo": "img/logos/logo_milltek.png" },
+                "Remus Exhaust": { "hp": 18, "torque": 20, "precio": 105000, "logo": "img/logos/logo_remusSportauspuff.svg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_audi.png" },
+                "Brembo Sport": { "hp": 0, "torque": 0, "precio": 160000, "logo": "img/logos/logo_brembo.jpg" },
+                "AP Racing": { "hp": 0, "torque": 0, "precio": 150000, "logo": "img/logos/logo_apRacing.png" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_audi.png" },
+                "Bilstein B16": { "hp": 0, "torque": 0, "precio": 170000, "logo": "img/logos/logo_bilstein.svg" },
+                "H&R Street Performance": { "hp": 0, "torque": 0, "precio": 150000, "logo": "img/logos/logo_h&r.png" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_audi.png" },
+                "OZ Ultraleggera": { "hp": 0, "torque": 0, "precio": 95000, "logo": "img/logos/logo_oz.jpg" },
+                "BBS CH-R": { "hp": 0, "torque": 0, "precio": 90000, "logo": "img/logos/logo_bbs.svg" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_audi.png" },
+                "Bridgestone Potenza": { "hp": 0, "torque": 0, "precio": 85000, "logo": "img/logos/logo_bridgestone.jpg" },
+                "Continental SportContact 6": { "hp": 0, "torque": 0, "precio": 87000, "logo": "img/logos/logo_continental.jpg" }
+            }
+        }
+    },
+    "Volkswagen Vento": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_volkswagen.jpg" },
+                "Garrett GT2860RS": { "hp": 90, "torque": 100, "precio": 220000, "logo": "img/logos/logo_garrett.jpg" },
+                "BorgWarner EFR": { "hp": 110, "torque": 120, "precio": 260000, "logo": "img/logos/logo_borgwarner.jpg" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_volkswagen.jpg" },
+                "Milltek Sport": { "hp": 10, "torque": 12, "precio": 85000, "logo": "img/logos/logo_milltek.png" },
+                "Remus Exhaust": { "hp": 15, "torque": 18, "precio": 90000, "logo": "img/logos/logo_remusSportauspuff.svg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_volkswagen.jpg" },
+                "StopTech ST-40": { "hp": 0, "torque": 0, "precio": 130000, "logo": "img/logos/logo_stoptech.png" },
+                "Brembo GT": { "hp": 0, "torque": 0, "precio": 135000, "logo": "img/logos/logo_brembo.jpg" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_volkswagen.jpg" },
+                "H&R Street Performance": { "hp": 0, "torque": 0, "precio": 105000, "logo": "img/logos/logo_h&r.png" },
+                "Bilstein B12": { "hp": 0, "torque": 0, "precio": 110000, "logo": "img/logos/logo_bilstein.svg" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_volkswagen.jpg" },
+                "Rotiform LAS-R": { "hp": 0, "torque": 0, "precio": 80000, "logo": "img/logos/logo_rotiform.png" },
+                "Enkei TS-5": { "hp": 0, "torque": 0, "precio": 70000, "logo": "img/logos/logo_enkei.jpg" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_volkswagen.jpg" },
+                "Michelin Pilot Sport 4": { "hp": 0, "torque": 0, "precio": 75000, "logo": "img/logos/logo_michelin.png" },
+                "Pirelli Cinturato P7": { "hp": 0, "torque": 0, "precio": 73000, "logo": "img/logos/logo_pirelli.svg" }
+            }
+        }
+    },
+    "Renault Megane RS": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_renault.png" },
+                "Garrett GT3071R": { "hp": 110, "torque": 130, "precio": 250000, "logo": "img/logos/logo_garrett.jpg" },
+                "BorgWarner S300SX-E": { "hp": 140, "torque": 160, "precio": 280000, "logo": "img/logos/logo_borgwarner.jpg" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_renault.png" },
+                "Akrapovic Evolution": { "hp": 18, "torque": 20, "precio": 120000, "logo": "img/logos/logo_akrapovic.jpg" },
+                "Remus Exhaust": { "hp": 12, "torque": 15, "precio": 110000, "logo": "img/logos/logo_remusSportauspuff.svg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_renault.png" },
+                "AP Racing": { "hp": 0, "torque": 0, "precio": 150000, "logo": "img/logos/logo_apRacing.png" },
+                "Alcon Advantage Extreme": { "hp": 0, "torque": 0, "precio": 155000, "logo": "img/logos/logo_alcon.svg" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_renault.png" },
+                "KW V3 Coilovers": { "hp": 0, "torque": 0, "precio": 135000, "logo": "img/logos/logo_kw.png" },
+                "Bilstein B14": { "hp": 0, "torque": 0, "precio": 125000, "logo": "img/logos/logo_bilstein.svg" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_renault.png" },
+                "OZ Racing Leggera HLT": { "hp": 0, "torque": 0, "precio": 95000, "logo": "img/logos/logo_oz.jpg" },
+                "BBS SR": { "hp": 0, "torque": 0, "precio": 90000, "logo": "img/logos/logo_bbs.svg" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_renault.png" },
+                "Dunlop Sport Maxx": { "hp": 0, "torque": 0, "precio": 77000, "logo": "img/logos/logo_dunlop.jpg" },
+                "Goodyear Eagle F1": { "hp": 0, "torque": 0, "precio": 75000, "logo": "img/logos/logo_goodyear.png" }
+            }
+        }
+    },
+    "Peugeot 207 GTi": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_peugeot.webp" },
+                "Garrett GT2554R": { "hp": 60, "torque": 70, "precio": 180000, "logo": "img/logos/logo_garrett.jpg" },
+                "IHI VF48": { "hp": 75, "torque": 80, "precio": 200000, "logo": "img/logos/logo_ihi.svg" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_peugeot.webp" },
+                "Remus Exhaust": { "hp": 10, "torque": 12, "precio": 85000, "logo": "img/logos/logo_remusSportauspuff.svg" },
+                "Akrapovic Slip-On": { "hp": 15, "torque": 15, "precio": 95000, "logo": "img/logos/logo_akrapovic.jpg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_peugeot.webp" },
+                "Tarox B32": { "hp": 0, "torque": 0, "precio": 95000, "logo": "img/logos/logo_tarox.jpg" },
+                "EBC Brakes": { "hp": 0, "torque": 0, "precio": 100000, "logo": "img/logos/logo_ebc.png" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_peugeot.webp" },
+                "Tein Street Basis Z": { "hp": 0, "torque": 0, "precio": 90000, "logo": "img/logos/logo_tein.jpg" },
+                "KW Street Comfort": { "hp": 0, "torque": 0, "precio": 95000, "logo": "img/logos/logo_kw.png" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_peugeot.webp" },
+                "Sparco Assetto Gara": { "hp": 0, "torque": 0, "precio": 55000, "logo": "img/logos/logo_sparco.jpg" },
+                "OZ Racing Superturismo": { "hp": 0, "torque": 0, "precio": 60000, "logo": "img/logos/logo_oz.jpg" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_peugeot.webp" },
+                "Bridgestone Potenza RE003": { "hp": 0, "torque": 0, "precio": 65000, "logo": "img/logos/logo_bridgestone.jpg" },
+                "Michelin Primacy 4": { "hp": 0, "torque": 0, "precio": 68000, "logo": "img/logos/logo_michelin.png" }
+            }
+        }
+    },
+    "Ford Focus": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_ford.png" },
+                "Garrett GT2560R": { "hp": 85, "torque": 100, "precio": 210000, "logo": "img/logos/logo_garrett.jpg" },
+                "Mitsubishi TD04": { "hp": 100, "torque": 110, "precio": 230000, "logo": "img/logos/logo_mitsubichi.png" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_ford.png" },
+                "Milltek Sport": { "hp": 12, "torque": 14, "precio": 88000, "logo": "img/logos/logo_milltek.png" },
+                "Remus Exhaust": { "hp": 18, "torque": 20, "precio": 95000, "logo": "img/logos/logo_remusSportauspuff.svg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_ford.png" },
+                "StopTech C43": { "hp": 0, "torque": 0, "precio": 120000, "logo": "img/logos/logo_stoptech.png" },
+                "Wilwood Dynalite": { "hp": 0, "torque": 0, "precio": 130000, "logo": "img/logos/logo_willwood.png" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_ford.png" },
+                "Tein Mono Sport": { "hp": 0, "torque": 0, "precio": 140000, "logo": "img/logos/logo_tein.jpg" },
+                "H&R Cup Kit": { "hp": 0, "torque": 0, "precio": 130000, "logo": "img/logos/logo_h&r.png" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_ford.png" },
+                "Motegi Racing MR139": { "hp": 0, "torque": 0, "precio": 80000, "logo": "img/logos/logo_motegi.webp" },
+                "OZ Racing Alleggerita HLT": { "hp": 0, "torque": 0, "precio": 85000, "logo": "img/logos/logo_oz.jpg" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_ford.png" },
+                "Pirelli P Zero": { "hp": 0, "torque": 0, "precio": 80000, "logo": "img/logos/logo_pirelli.svg" },
+                "Michelin Pilot Super Sport": { "hp": 0, "torque": 0, "precio": 82000, "logo": "img/logos/logo_michelin.png" }
+            }
+        }
+    },
+    "Chevrolet Cruze RS": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_chevrolet.jpg" },
+                "Garrett GTX2867R": { "hp": 110, "torque": 130, "precio": 270000, "logo": "img/logos/logo_garrett.jpg" },
+                "BorgWarner K04": { "hp": 120, "torque": 140, "precio": 290000, "logo": "img/logos/logo_borgwarner.jpg" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_chevrolet.jpg" },
+                "Remus Exhaust": { "hp": 18, "torque": 20, "precio": 105000, "logo": "img/logos/logo_remusSportauspuff.svg" },
+                "Akrapovic Slip-On": { "hp": 20, "torque": 22, "precio": 115000, "logo": "img/logos/logo_akrapovic.jpg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_chevrolet.jpg" },
+                "Brembo Performance": { "hp": 0, "torque": 0, "precio": 140000, "logo": "img/logos/logo_brembo.jpg" },
+                "StopTech Trophy": { "hp": 0, "torque": 0, "precio": 135000, "logo": "img/logos/logo_stoptech.png" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_chevrolet.jpg" },
+                "KW V3": { "hp": 0, "torque": 0, "precio": 160000, "logo": "img/logos/logo_kw.png" },
+                "Tein Flex Z": { "hp": 0, "torque": 0, "precio": 150000, "logo": "img/logos/logo_tein.jpg" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_chevrolet.jpg" },
+                "Rota Grid": { "hp": 0, "torque": 0, "precio": 90000, "logo": "img/logos/logo_rota.png" },
+                "XXR 527": { "hp": 0, "torque": 0, "precio": 85000, "logo": "img/logos/logo_xxr.jpg" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_chevrolet.jpg" },
+                "Michelin Pilot Sport Cup 2": { "hp": 0, "torque": 0, "precio": 95000, "logo": "img/logos/logo_michelin.png" },
+                "Bridgestone Potenza S001": { "hp": 0, "torque": 0, "precio": 97000, "logo": "img/logos/logo_bridgestone.jpg" }
+            }
+        }
+    },
+    "BMW 240i": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_bmw.jpg" },
+                "Pure Stage 2": { "hp": 150, "torque": 180, "precio": 330000, "logo": "img/logos/logo_pure.png" },
+                "Dinan Big Turbo": { "hp": 170, "torque": 200, "precio": 370000, "logo": "img/logos/logo_dinan.png" }
+            }
+        },
+        "Escape": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_bmw.jpg" },
+                "Akrapovic Evolution": { "hp": 22, "torque": 24, "precio": 130000, "logo": "img/logos/logo_akrapovic.jpg" },
+                "Remus Exhaust": { "hp": 20, "torque": 22, "precio": 125000, "logo": "img/logos/logo_remusSportauspuff.svg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_bmw.jpg" },
+                "M Performance": { "hp": 0, "torque": 0, "precio": 160000, "logo": "img/logos/logo_mPerformance.jpg" },
+                "StopTech BBK": { "hp": 0, "torque": 0, "precio": 155000, "logo": "img/logos/logo_stoptech.png" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_bmw.jpg" },
+                "KW Clubsport": { "hp": 0, "torque": 0, "precio": 170000, "logo": "img/logos/logo_kw.png" },
+                "Bilstein B16 PSS10": { "hp": 0, "torque": 0, "precio": 165000, "logo": "img/logos/logo_bilstein.svg" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_bmw.jpg" },
+                "BBS CI-R": { "hp": 0, "torque": 0, "precio": 105000, "logo": "img/logos/logo_bbs.svg" },
+                "HRE FF04": { "hp": 0, "torque": 0, "precio": 100000, "logo": "img/logos/logo_hre.jpeg" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_bmw.jpg" },
+                "Michelin Pilot Sport 4S": { "hp": 0, "torque": 0, "precio": 100000, "logo": "img/logos/logo_michelin.png" },
+                "Pirelli P Zero": { "hp": 0, "torque": 0, "precio": 95000, "logo": "img/logos/logo_pirelli.svg" }
+            }
+        }
+    },
+    "Mercedes Benz CLA250": {
+        "Turbo": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_mercedesBenz.webp" },
+                "TTE450": { "hp": 140, "torque": 160, "precio": 320000, "logo": "img/logos/logo_tte450.avif" },
+                "Weistec W.4 Turbo": { "hp": 160, "torque": 180, "precio": 350000, "logo": "img/logos/logo_weistek.jpg" }
+            }
+        },
+        "Frenos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_mercedesBenz.webp" },
+                "Brembo GT-S": { "hp": 0, "torque": 0, "precio": 155000, "logo": "img/logos/logo_brembo.jpg" },
+                "Wilwood Aero6": { "hp": 0, "torque": 0, "precio": 145000, "logo": "img/logos/logo_willwood.png" }
+            }
+        },
+        "Suspension": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_mercedesBenz.webp" },
+                "H&R Sport Springs": { "hp": 0, "torque": 0, "precio": 125000, "logo": "img/logos/logo_h&r.png" },
+                "KW V2 Coilovers": { "hp": 0, "torque": 0, "precio": 135000, "logo": "img/logos/logo_kw.png" }
+            }
+        },
+        "Llantas": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_mercedesBenz.webp" },
+                "Rotiform RSE": { "hp": 0, "torque": 0, "precio": 85000, "logo": "img/logos/logo_rotiform.png" },
+                "Vossen CVT": { "hp": 0, "torque": 0, "precio": 90000, "logo": "img/logos/logo_vossen.png" }
+            }
+        },
+        "Neumaticos": {
+            "marcas": {
+                "Stock ": { "hp": 0, "torque": 0, "precio": 0, "logo": "img/logos/logo_mercedesBenz.webp" },
+                "Pirelli P Zero Nero": { "hp": 0, "torque": 0, "precio": 95000, "logo": "img/logos/logo_pirelli.svg" },
+                "Continental ExtremeContact": { "hp": 0, "torque": 0, "precio": 93000, "logo": "img/logos/logo_continental.jpg" }
+            }
+        }
+    }
+}

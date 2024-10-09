@@ -1,100 +1,319 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+* {
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
 }
 
-h1, h2 {
-  color: #d9534f;
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #3389a0;
 }
 
-#simulador, #resultado {
-  background-color: #fff;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1 {
+  margin-top: 50px;
+  position: relative;
+  font-size: 6em;
+  letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.5333333333));
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 5s linear infinite;
 }
 
-button {
-  background-color: #5cb85c;
+@keyframes animate {
+  0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+  18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
+  }
+}
+label {
+  margin-top: 75px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+label h2 {
   color: #fff;
+  font-size: 50px;
+  font-weight: 50;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+
+.carSelect-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 250px;
+  height: 50px;
+}
+.carSelect-container select {
+  border: solid black;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0 30px 0 15px;
+  width: 300px;
+  color: white;
+  background-color: #2873ff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#carDetails {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(0, 208, 255), rgb(34, 144, 247));
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#modificationOptions {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#modificationOptions .mod-container {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(0, 185, 246), lightgray);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 75px;
+  position: relative;
+  border: solid black;
+}
+#modificationOptions .mod-container label {
+  color: black;
+  align-items: center;
+  margin: 17.5px auto;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+}
+#modificationOptions .mod-container select {
   border: none;
-  padding: 10px 20px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0 30px 0 15px;
+  color: white;
+  background-color: #2873ff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  display: none;
+  position: absolute;
+  top: -75px;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, top 0.3s ease-in-out;
+}
+#modificationOptions .mod-container:hover select,
+#modificationOptions .mod-container label:hover + select {
+  display: block;
+  opacity: 1;
+  top: 0;
+}
+#modificationOptions .mod-container .brand-logo-container {
+  margin-left: 10px;
+}
+#modificationOptions .mod-container .brand-logo-container .brand-logo {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 40px;
+}
+
+.selectedModList-container {
+  margin-top: 20px;
+}
+.selectedModList-container h2 {
+  text-align: center;
+}
+.selectedModList-container #selectedModsList {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 50px;
+}
+.selectedModList-container #selectedModsList li {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectedModList-container #selectedModsList li .remove-mod {
+  background-color: #ff0000;
+  color: #000000;
+  border: none;
+  padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 10px;
 }
-button:hover {
-  background-color: #449d44;
+.selectedModList-container #selectedModsList li .remove-mod:hover {
+  background-color: #cc0000;
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+.light {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid black;
+  background-color: rgba(255, 255, 255, 0.0509803922);
+  display: inline-block;
+  margin: 0 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.active {
+  background-color: inherit;
+}
+
+.hp-light-green.active {
+  background-color: #00ff00;
+}
+
+.hp-light-yellow.active {
+  background-color: yellow;
+}
+
+.hp-light-red.active {
+  background-color: #ff0000;
+}
+
+.torque-light-green.active {
+  background-color: #00ff00;
+}
+
+.torque-light-yellow.active {
+  background-color: yellow;
+}
+
+.torque-light-red.active {
+  background-color: #ff0000;
+}
+
+.semaforo {
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.modal-content {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
+.semaforo-text {
   text-align: center;
-  width: 300px;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bolder;
 }
 
-#autoSelect {
-  margin-top: 20px;
-  padding: 10px;
-  width: 100%;
-}
-
-#selectAutoBtn, #closeResultModalBtn {
-  background-color: #d9534f;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-top: 20px;
-}
-#selectAutoBtn:hover, #closeResultModalBtn:hover {
-  background-color: #c9302c;
-}
-
-#resultMessage {
-  white-space: pre-line;
+#priceOutput {
+  font-size: 1.5rem;
   font-weight: bold;
+  color: black;
+  text-align: center;
 }
 
-#cambiarModeloBtn {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 1000;
-  background-color: #5cb85c;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+#applyModifications {
+  display: block;
+  margin: 80px auto;
   cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
 }
-#cambiarModeloBtn:hover {
-  background-color: #449d44;
+#applyModifications:after, #applyModifications:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
 }
-#cambiarModeloBtn:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-  pointer-events: none;
+#applyModifications:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+#applyModifications:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+#applyModifications:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+#applyModifications:hover:before, #applyModifications:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+#carImageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.vehiculo-imagen {
+  max-width: 300px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.brand-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border: solid black;
 }/*# sourceMappingURL=styles.css.map */
