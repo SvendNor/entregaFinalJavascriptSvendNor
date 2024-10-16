@@ -1,0 +1,47 @@
+{
+    "Honda Civic Si": { 
+        "hp": 197, 
+        "torque": 174, 
+        "image": "img/autos/civic_si.jpg"
+    },
+    "Audi S3": { 
+        "hp": 265, 
+        "torque": 350, 
+        "image": "img/autos/audi_s3.jpg"
+    },
+    "Volkswagen Vento": { 
+        "hp": 200, 
+        "torque": 280, 
+        "image": "img/autos/volkswagen_vento.jpg"
+    },
+    "Renault Megane RS": { 
+        "hp": 275, 
+        "torque": 360, 
+        "image": "img/autos/megane_rs.jpg"
+    },
+    "Peugeot 207 GTi": { 
+        "hp": 175, 
+        "torque": 240, 
+        "image": "img/autos/peugeot_207.jpg"
+    },
+    "Ford Focus": { 
+        "hp": 160, 
+        "torque": 250, 
+        "image": "img/autos/ford_focus.jpg"
+    },
+    "Chevrolet Cruze RS": { 
+        "hp": 153, 
+        "torque": 240, 
+        "image": "img/autos/chevrolet_cruze.jpg"
+    },
+    "BMW 240i": { 
+        "hp": 335, 
+        "torque": 500, 
+        "image": "img/autos/bmw_240i.jpg"
+    },
+    "Mercedes Benz CLA250": { 
+        "hp": 208, 
+        "torque": 350, 
+        "image": "img/autos/MercedesBenz_CLA45.avif"
+    }
+}
